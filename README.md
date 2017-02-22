@@ -16,4 +16,4 @@ This plugin requires a subscription to Aimbase CRM that supports API POSTs, as w
 
 ## Notes ##
 
-This plugin is not officially supported by Avala. They, however, do not have any such plugin of their own. So use this!
+This plugin is not officially supported by Avala or the Aimbase Marketing Automation platform. If you are to use this plugin, the arrays for Lead Types, Categories and Sources are hard-coded in this plugin, and do not use Aimbase Lead API to dynamically generate these values. These need to be changed to match your Lead values from your individual Aimbase deployment subscription and updated everytime one of these values is changed in Aimbase. If the submitted Source, Type or Category is incorrect, it will fail to submit during the lead staging process.
